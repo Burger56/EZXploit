@@ -1,12 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))() -- Load library
-local ThemeColors = {
-    SchemeColor = Color3.fromRGB(67, 142, 163),
-    Background = Color3.fromRGB(25, 25, 40),
-    Header = Color3.fromRGB(147, 169, 194),
-    TextColor = Color3.fromRGB(255,255,255),
-    ElementColor = Color3.fromRGB(30, 80, 95)
-}
-local Window = Library.CreateLib("EZXploit [TESTING]", ThemeColors)
+local Window = Library.CreateLib("EZXploit [TESTING]", "Midnight")
 
 -- TABS
 local TabMain = Window:NewTab("Main")

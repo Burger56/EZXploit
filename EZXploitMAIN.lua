@@ -9,4 +9,14 @@ local TabSettings = Window:NewTab("Settings")
 local TabCredits = Window:NewTab("Credits")
 local TabPloit = Window:NewTab("EZXploit+")
 
--- SECTIONS
+-- STUFF IDK
+
+local PlayerSection = TabMain:NewSection("Section Name")
+
+PlayerSection:NewSlider("WalkSpeed", "SliderInfo", 500, 0, function(s)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("JumpPower", "SliderInfo", 250, 0, function(s)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)

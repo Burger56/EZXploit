@@ -11,7 +11,7 @@ local TabSettings = Window:NewTab("Settings")
 
 local ThemeSettings = TabSettings:NewSection("Theme")
 for theme, color in pairs(themes) do
-    Section:NewColorPicker(theme, "Change your "..theme .. "! [WIP]", color, function(color3)
+    Theme:NewColorPicker(theme, "Change your "..theme .. "! [WIP]", color, function(color3)
         Library:ChangeColor(theme, color3)
     end)
 end

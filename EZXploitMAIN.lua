@@ -6,5 +6,7 @@ local TabMain = Window:NewTab("Main")
 local TabExperimental = Window:NewTab("Experimental")
 local TabUpdates = Window:NewTab("Update Log")
 local TabSettings = Window:NewTab("Settings")
+local TabCredits = Window:NewTab("Credits")
+local TabPloit = Window:NewTab("EZXploit+")
 
 -- SECTIONS
